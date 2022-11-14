@@ -1,6 +1,7 @@
 #!/usr/bin/dummyc
-000 gosub 1 000
-001 print ""
+000 import "./src/games"
+008 gosub 1 000
+009 print ""
 010 gosub 2 000
 020 if sel = 0 then 999
 030 if sel = 1 then 200
